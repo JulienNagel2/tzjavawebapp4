@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		String myMsg = "Hello JNG v2.7.0";
+		String myMsg = "Hello JNG v2.6.0";
 		System.out.println("This is an update. myMsg = " + myMsg);
 		String msgToDisplay = "Greetings from Spring Boot + Tanzu!";
 		return  msgToDisplay;
