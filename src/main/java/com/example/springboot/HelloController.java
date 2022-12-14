@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		String myMsg = "This app is using spring boot v2.6.0";
+		String myMsg = "This app is using spring boot v2.7.6";
 		System.out.println("This is an update. myMsg = " + myMsg);
 		String msgToDisplay = getWebContent(myMsg);
 		return  msgToDisplay;
